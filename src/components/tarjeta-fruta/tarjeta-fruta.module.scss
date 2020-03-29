@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 183px;
+  box-shadow: 1px 5px 15px;
+  border-radius: 1.5rem;
+  margin: 1rem;
+  background-color: #ffc0cb4d;
+  .name {
+    text-align: center;
+    color: #800080;
+  }
+  .price {
+    text-align: center;
+    color: #3d95e6fc;
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 2rem;
+    border-radius: 1.5rem;
+    background-color: #d8b2d72b;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    font-family: "-webkit-pictograph";
+    font-size: 1rem;
+    color: #222222;
+    margin: 0 auto;
+    svg {
+      font-size: 1rem;
+      margin-left: 1rem;
+      color: #222222;
+      stroke-width: 2;
+    }
+  }
+}
